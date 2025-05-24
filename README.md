@@ -27,7 +27,7 @@ Cost burden: % of income spent on housing
 | **Bureau of Labor Statistics Consumer Price Index, all urban consumers (CPI-U)** | 2016-2020 • Monthly | Used later to inflation-adjust incomes to real 2020 dollars |
 
 
-## 5  Reproducing the Results
+## 4  Reproducing the Results
 ```bash
 # 1. clone the repository
 git clone https://github.com/dxliang001/SIADS593--Milestone-1.git
@@ -35,3 +35,32 @@ cd SIADS593--Milestone-1
 
 # 2. launch JupyterLab
 jupyter lab
+```
+
+## 5 Analysis
+
+Analysis 1: Find the distributions of housing cost burden (% of income spending on mortgage/rent), income, home values, and rent across counties. We expect to learn if there are specific geographic concentrations where housing is more/less affordable. 
+
+Analysis 2: Calculate pearson correlation coefficients between housing cost burden and each variable in the ACS data (ex: employment status, education level) and visualize the results using a heatmap. We expect to learn which variables are most correlated with having a high housing cost burden.
+
+Analysis 3: At the national level (for all of the US), see if there’s any correlation between annual CPI and mortgage rate changes and housing cost burden (% of income spending on mortgage/rent) to detect whether changes in inflation or mortgage rates tend to precede or lag shifts in housing affordability. We expect to learn if changes in home prices can be attributed to inflation alone, or if there are other factors at play. 
+Analysis 4: We want to learn whether certain demographic and socioeconomic groups (e.g., renters, young families, low-income households) are disproportionately experiencing housing cost burdens compared to others. To do this, we will:
+Calculate cost-burden indicators (e.g., % of income spent on housing) using ACS and HUD CHAS data, segmented by household income brackets, age groups, tenure status, and household structure.
+Compare the level and severity of cost burden (e.g., moderately burdened vs. severely burdened) across these groups.
+We want to answer whether household type or economic status significantly affects vulnerability to affordability pressures, and whether the burden is increasing faster among specific groups over time. 
+
+## 6 Visualizations 
+
+Choropleth Map:
+We will plot the average home price by state or county, with a drop down for the user to filter on a year and month between January 2016 and December 2020. 
+
+Line Plot: 
+We will plot the annual inflation rate change and the year over year change in the housing cost burden from 2016 to 2020 to understand how these two trends relate to each other.
+
+Heatmap: 
+We will plot the Pearson correlation coefficient between cost-burden and each predictor variable (income, poverty, unemployment, inflation, mortgage rate).
+
+Grouped Bar Chart: 
+We will plot the % of households that are cost-burdened (spending 30% or more of their income on housing) for various income levels to show how housing affordability has shifted over time. 
+
+
