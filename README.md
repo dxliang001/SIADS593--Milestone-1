@@ -33,9 +33,5 @@ Cost burden: % of income spent on housing
 git clone https://github.com/dxliang001/SIADS593--Milestone-1.git
 cd SIADS593--Milestone-1
 
-# 2. create the Conda environment (Python 3.10)
-conda env create -f environment.yml
-conda activate siads593_affordability
-
-# 3. launch JupyterLab
+# 2. launch JupyterLab
 jupyter lab
