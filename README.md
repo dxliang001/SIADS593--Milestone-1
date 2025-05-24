@@ -1,5 +1,11 @@
 # Housing Affordability Analysis  
 *SIADS 593 – Milestone 1 (University of Michigan Master of Applied Data Science)*
+##Team members 
+Please list your team members (2-3 max).
+
+Sahana Sundar (sahanasu)
+Dongxin Liang (dxliang)
+Naiwen Duan (nduan) 
 
 
 ## 1  Project Overview
