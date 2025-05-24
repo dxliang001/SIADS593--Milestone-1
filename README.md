@@ -3,9 +3,9 @@
 ##Team members 
 Please list your team members (2-3 max).
 
-Sahana Sundar (sahanasu)
-Dongxin Liang (dxliang)
-Naiwen Duan (nduan) 
+1. Sahana Sundar (sahanasu)
+2. Dongxin Liang (dxliang)
+3. Naiwen Duan (nduan) 
 
 
 ## 1  Project Overview
