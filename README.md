@@ -21,8 +21,9 @@ Cost burden: % of income spent on housing
 ## 3  Data Sources (all public)
 | Data set | Time span | Purpose |
 |----------|-----------|---------|
-| **American Community Survey (ACS) 5-year – CHAS tables**<br>*(Comprehensive Housing Affordability Strategy)* | 2016 & 2020 • County level | Counts and HUD-calculated percentages of cost-burdened households, broken out by income band and by tenure |
-| **ACS 5-year – Socio-Economic tables** | 2016 & 2020 • County level | Median household income, poverty metrics, employment context (to be integrated in Milestone 2) |
+| **American Community Survey (ACS) 5-year – CHAS tables**<br>*(Comprehensive Housing Affordability Strategy)* | 2016 - 2020 • County level | Counts and HUD-calculated percentages of cost-burdened households, broken out by income band and by tenure |
+| **ACS 5-year – Socio-Economic tables** | 2016 - 2020 • County level | Median household income, poverty metrics, employment context  |
+| **Redfin County Market Tracker** | 2016-2020 • County level |  The Redfin Data Center provides publicly accessible information on the housing market. We will use a dataset that shows home prices listed on the Redfin website by county.   |
 | **Freddie Mac Primary Mortgage Market Survey – 30-Year Fixed Rate** | 2016-2020 • Monthly | Captures financing-cost pressure on owner households |
 | **Bureau of Labor Statistics Consumer Price Index, all urban consumers (CPI-U)** | 2016-2020 • Monthly | Used later to inflation-adjust incomes to real 2020 dollars |
 
