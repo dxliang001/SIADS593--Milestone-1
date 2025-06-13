@@ -1,3 +1,32 @@
+README - Project Data Notice
+============================
+
+In order to run the code there are some necessary library that we need to install, open the terminal and run
+
+!pip install -r requirements.txt
+
+IMPORTANT: Missing File - soc_chas_redfin.zip
+---------------------------------------------
+
+Due to technical limitations, the file `clean_data/soc_chas_redfin.zip` is not included in this repository.
+
+Specifically, GitHub does not allow zipping a folder that already contains a `.zip` file. As a result, the final cleaned dataset `soc_chas_redfin.zip` could not be bundled directly in the project archive.
+
+To generate this missing file, please run the notebook:
+
+    Final_data_cleaning.ipynb
+
+This notebook will:
+- Load and process all necessary datasets
+- Perform data cleaning and merging
+- It will save the final result as `soc_chas_redfin.csv` and compress it into `soc_chas_redfin.zip` in the `clean_data/` folder
+
+Once the notebook has completed successfully, you will have the missing file and can proceed with the rest of the project.
+
+
+Thank you for understanding!
+
+
 # Housing Affordability Analysis  
 *SIADS 593 – Milestone 1 (University of Michigan Master of Applied Data Science)*
 ##Team members 
